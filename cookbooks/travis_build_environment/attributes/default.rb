@@ -225,6 +225,9 @@ default['travis_build_environment']['gimme']['install_user'] = 'travis'
 default['travis_build_environment']['gimme']['install_user_home'] = '/home/travis'
 default['travis_build_environment']['gimme']['debug'] = false
 
+default['travis_build_environment']['hadolint_url'] = 'https://github.com/hadolint/hadolint/releases/download/v2.5.0/hadolint-Linux-x86_64'
+default['travis_build_environment']['hadolint_checksum'] = '6666cb1a002d71652c9972bcd3e5e100f65ea019c68c1a05b9428a8444d6f8f3'
+
 default['travis_build_environment']['haskell']['ghc_versions'] = %w[
   8.6.1
 ]
